@@ -1,13 +1,13 @@
 import os
 from flask import Flask, request, jsonify,render_template
 from flask_sqlalchemy import SQLAlchemy
-from flask.ext.heroku import Heroku
+#from flask.ext.heroku import Heroku
 
 app = Flask(__name__)
 
 app.config.from_pyfile('config.py')
 app.config['SQLALCHEMY_DATABASE_URI'] = 'postgresql://User01:777@localhost:5432/article_db'
-heroku = Heroku(app)
+#heroku = Heroku(app)
 app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
 db = SQLAlchemy(app)
 
