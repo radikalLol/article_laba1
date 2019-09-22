@@ -7,7 +7,7 @@ app = Flask(__name__)
 app.config.from_pyfile('config.py')
 app.config['SQLALCHEMY_DATABASE_URI'] = 'postgresql+psycopg2://User01:777@localhost/article_db'
 app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
-db = SQLAlchemy(app)
+db = SQLAlchemy()
 
 from models import Articles
 
