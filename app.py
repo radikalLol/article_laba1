@@ -5,7 +5,7 @@ from flask_sqlalchemy import SQLAlchemy
 app = Flask(__name__)
 
 app.config.from_pyfile('config.py')
-app.config['SQLALCHEMY_DATABASE_URI'] = 'postgresql://User01:777@laba1-db-flask.herokuapp.com/article_db'
+app.config['SQLALCHEMY_DATABASE_URI'] = 'postgresql://User01:777@localhost/article_db'
 app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
 db = SQLAlchemy(app)
 
