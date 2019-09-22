@@ -20,7 +20,7 @@
         <entry file="file://$PROJECT_DIR$/app.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="119">
-              <caret line="7" selection-start-line="7" selection-end-line="8" />
+              <caret line="7" column="93" selection-start-line="7" selection-start-column="93" selection-end-line="7" selection-end-column="93" />
               <folding>
                 <element signature="e#0#9#0" expanded="true" />
               </folding>
@@ -72,8 +72,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/models.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret lean-forward="true" />
+            <state relative-caret-position="352">
+              <caret line="25" column="9" lean-forward="true" selection-start-line="25" selection-start-column="9" selection-end-line="25" selection-end-column="9" />
             </state>
           </provider>
         </entry>
@@ -90,11 +90,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/manage.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret lean-forward="true" />
-              <folding>
-                <element signature="e#0#32#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="17">
+              <caret line="1" column="17" lean-forward="true" selection-start-line="1" selection-start-column="17" selection-end-line="1" selection-end-column="17" />
             </state>
           </provider>
         </entry>
@@ -102,8 +99,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/config.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="14" lean-forward="true" selection-end-line="14" />
+            <state relative-caret-position="352">
+              <caret line="27" column="18" lean-forward="true" selection-start-line="27" selection-start-column="18" selection-end-line="27" selection-end-column="18" />
             </state>
           </provider>
         </entry>
@@ -219,12 +216,12 @@
       <option name="presentableId" value="Default" />
       <updated>1569076241367</updated>
       <workItem from="1569076242699" duration="11467000" />
-      <workItem from="1569153689816" duration="2563000" />
+      <workItem from="1569153689816" duration="4673000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="14030000" />
+    <option name="totallyTimeSpent" value="16140000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="44" y="0" width="1328" height="784" extended-state="0" />
@@ -360,34 +357,31 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret lean-forward="true" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/manage.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret lean-forward="true" />
-          <folding>
-            <element signature="e#0#32#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="17">
+          <caret line="1" column="17" lean-forward="true" selection-start-line="1" selection-start-column="17" selection-end-line="1" selection-end-column="17" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/config.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" lean-forward="true" selection-end-line="14" />
+        <state relative-caret-position="352">
+          <caret line="27" column="18" lean-forward="true" selection-start-line="27" selection-start-column="18" selection-end-line="27" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="352">
+          <caret line="25" column="9" lean-forward="true" selection-start-line="25" selection-start-column="9" selection-end-line="25" selection-end-column="9" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
-          <caret line="7" selection-start-line="7" selection-end-line="8" />
+          <caret line="7" column="93" selection-start-line="7" selection-start-column="93" selection-end-line="7" selection-end-column="93" />
           <folding>
             <element signature="e#0#9#0" expanded="true" />
           </folding>
