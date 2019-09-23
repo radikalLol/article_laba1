@@ -1,5 +1,5 @@
 import http.client
-conn = http.client.HTTPConnection("laba1-db-heroku.herokuapp.com")
+conn = http.client.HTTPConnection("localhost:5000")
 
 def case1():
  conn.request("GET", "/")
