@@ -1,0 +1,23 @@
+language: python
+dist: bionic
+
+addons:
+  postgresql: "9.4"
+services:
+  - postgresql
+
+install:
+  - pip install -r requirements.txt
+
+before_script:
+  - psql -c 'create database article_db;' -U User01
+script:
+  - python manage.py test
+
+deploy:
+  provider: heroku
+  api_key: 6fab201a-a5a2-43e3-b4bf-8b029b7988f1
+  app: laba1-db-heroku
+
+notifications:
+  email: false
