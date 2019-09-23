@@ -28,9 +28,7 @@ def case3():
  print('GET Test 3: ',data2, '\n')
 
 def case4():
- print('Введите номер id в базе данных:')
- a = input()
- conn.request("GET", "/get/"+a)
+ conn.request("GET", "/get/4")
  r2 = conn.getresponse()
  print('Status Test 4: ',r2.status)
  data2 = r2.read()

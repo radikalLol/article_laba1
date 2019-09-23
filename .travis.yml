@@ -13,7 +13,7 @@ before_script:
   - psql -c 'create database article_db;'
 script:
   - python manage.py runserver
-  - python tests\test_case.py
+  - python tests/test_case.py
 
 deploy:
   provider: heroku
