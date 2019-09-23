@@ -20,7 +20,7 @@ def case2():
  b = input()
  print('Введите число публикации:')
  c = input()
- conn.request("GET", "/add?name="+a+"&author="+b+"&published="+c)
+ conn.request("GET", "/add?name=test&author=test&published=01.01.2010")
  r2 = conn.getresponse()
  print('Status Test 2: ',r2.status)
  data2 = r2.read()
