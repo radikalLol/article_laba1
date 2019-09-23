@@ -8,7 +8,7 @@ app = Flask(__name__)
 app.config.from_pyfile('config.py')
 #heroku = Heroku(app)
 app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
-db = SQLAlchemy(app)
+db = SQLAlchemy()
 from models import Articles
 
 @app.route("/")
