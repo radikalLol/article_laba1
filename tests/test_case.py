@@ -14,12 +14,6 @@ def case1():
 
 
 def case2():
- print('Введите название статьи:')
- a = input()
- print('Введите Имя автора:')
- b = input()
- print('Введите число публикации:')
- c = input()
  conn.request("GET", "/add?name=test&author=test&published=01.01.2010")
  r2 = conn.getresponse()
  print('Status Test 2: ',r2.status)
