@@ -6,9 +6,15 @@ from flask_sqlalchemy import SQLAlchemy
 app = Flask(__name__)
 
 app.config.from_pyfile('config.py')
+
+if os.environ.get('DATABSE_URL') is None:
+    SQLALCHEMY_DATABASE_URI = 'postgresql+psycopg2://User01:777@localhost/article_db'
+else:
+    SQLALCHEMY_DATABASE_URI = os.environ['DATABASE_URL']
+
 #heroku = Heroku(app)
 app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
-db = SQLAlchemy()
+db = SQLAlchemy(app)
 from models import Articles
 
 @app.route("/")
