@@ -6,11 +6,7 @@ def case1():
  r1 = conn.getresponse()
  print('Status Test 1: ',r1.status)
  data1 = r1.read()
- if data1 == b'Hello World':
-    print('Test 1: status: Good')
- else:
-     print('what')
- print('GET Test 2:',data1, '\n')
+ print('GET Test 1:',data1, '\n')
 
 
 def case2():
