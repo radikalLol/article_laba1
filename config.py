@@ -28,5 +28,5 @@ class TestingConfig(Config):
     TESTING = True
     DEBUG = True
     CSRF_ENABLED = True
-    SECRET_KEY = os.environ.get("TEST_KEY")
-    SQLALCHEMY_DATABASE_URI = os.environ.get("TEST_URL")
+    #SECRET_KEY = os.environ.get("TEST_KEY")
+    SQLALCHEMY_DATABASE_URI = os.environ.get("postgresql://localhost/article_db")
