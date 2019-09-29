@@ -26,3 +26,7 @@ class DevelopmentConfig(Config):
 
 class TestingConfig(Config):
     TESTING = True
+    DEBUG = True
+    CSRF_ENABLED = True
+    SECRET_KEY = os.environ.get("TEST_KEY")
+    SQLALCHEMY_DATABASE_URI = os.environ.get("TEST_URL")
