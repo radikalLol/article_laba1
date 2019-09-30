@@ -19,8 +19,8 @@ def test_index():
 def test_db():
 
 
-        from models import Articles
-
+    from models import Articles
+    try:
         t_book = Articles(
             name='aaaa',
             author='aaaaa',
@@ -28,5 +28,6 @@ def test_db():
         )
         db.session.add(t_book)
         db.session.commit()
-
+    except Exception as e:
+        return (str(e))
         #assert db.session.query(Articles).one()
