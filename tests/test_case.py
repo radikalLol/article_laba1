@@ -21,8 +21,12 @@ def test_db():
 
         from models import Articles
 
-        test_art = Articles(name="article article", author = "author article", published= "13.04.2001")
-        db.session.add(test_art)
+        t_book = Articles(
+            name='aaaa',
+            author='aaaaa',
+            published= 2001
+        )
+        db.session.add(t_book)
         db.session.commit()
 
         #assert db.session.query(Articles).one()
