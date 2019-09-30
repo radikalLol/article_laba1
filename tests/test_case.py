@@ -17,15 +17,12 @@ def test_index():
     assert b'Hello World!' in response.data
 
 def test_db():
-    with app.app_context() as context:
-        context.push()
-        db.drop_all()
-        db.create_all()
+
 
         from models import Articles
 
         test_art = Articles(name="article article", author = "author article", published= "13.04.2001")
-        test_art.save()
+        db.session.add(test_art)
         db.session.commit()
 
-    assert db.session.query(Articles).one()
+        #assert db.session.query(Articles).one()
